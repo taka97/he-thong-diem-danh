@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to Chrome",
+            "type": "chrome",
+            "request": "attach",
+            "port": 9222,
+            "url": "https://hcmus-attendance.herokuapp.com/login",
+            "sourceMaps": true,
+            "trace": "verbose",
+            "webRoot": "${workspaceRoot}/src/app",
+        },
+        {
+            "name": "Launch",
+            "type": "chrome",
+            "request": "launch",
+            "port": 9222,
+            "url": "https://hcmus-attendance.herokuapp.com/login",
+            "sourceMaps": true,
+            "trace": "verbose",
+            "webRoot": "${workspaceRoot}/src/app",
+            "userDataDir": "${workspaceRoot}/out/chrome"
+        }
+]
+}
