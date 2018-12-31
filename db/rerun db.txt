@@ -1,0 +1,1 @@
+heroku pg:psql -a he-thong-diem-danh < qldd-postgre.sql
